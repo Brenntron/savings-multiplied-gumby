@@ -1,0 +1,73 @@
+
+.top, .mid-top, .mid-bottom, .bottom {
+	background-color: white;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+.twins {
+	margin-top: 20px;
+}
+
+.twins, .triplets, .quads {
+	padding-right: 20px;
+}
+
+.blue_owl {
+	text-align: center;
+	width: 550px;
+	float: right;
+	padding-top: 10px;
+	font-size: 24px;
+	color: #27A9B4;
+	margin-bottom: 0;
+}
+
+.owl {
+	margin-left: 40px;
+	height: 50px;
+}
+
+.shop {
+	margin-left: 80px;
+}
+
+.tree {
+	float: right;
+}
+
+.callout {
+	padding: 20px 30px;
+}
+
+.owl_head {
+	padding-top: 20px;
+	padding-left: 50px;
+	color: #8BBA40;
+	font-weight: bold;
+}
+
+.content .bottomrow {
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+}
+
+.linkrow {
+	background-color: #74CCD1;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+.bottomlink {
+	padding-right: 10px;
+	padding-left: 5px;
+	color: white;
+	display: inline
+}
+
+.item a, {
+	color: black;
+	font-weight: bold;
+}

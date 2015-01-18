@@ -1,0 +1,114 @@
+.header {
+  background-color: $primary;
+}
+
+.header .row:first-child {
+  background-color: $primary;
+  margin-bottom: 20px;
+}
+
+.header .row {
+  background-color: white;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+h1 {
+    font-family: 'Corben', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+p {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.btn {
+  color: white;
+}
+
+.tagline {
+  padding-top: 10px;
+  padding-left: 140px;
+}
+
+.nav_ul .primary {
+  background-color: #77C4D0;
+  border: 1px solid #77C4D0;
+}
+
+.nav_ul .secondary {
+  background-color: #87B73B;
+  border: 1px solid #87B738;
+}
+
+.nav_ul .warning {
+  color: white;
+  background-color: #72288B;
+  border: 1px solid #72288B;
+}
+
+.nav_ul .danger {
+  background-color: #ED008B;
+  border: 1px solid #ED008B;
+}
+
+.nav_ul {
+  text-align: right;
+  padding-top: 60px;
+  padding-right: 50px;
+}
+
+.nav_ul li {
+  text-align: center;
+  display: inline;
+  margin-right: 10px;
+}
+
+.header-button {
+  padding: 0 18px;
+  display: inline;
+}
+
+.row {
+  padding: 0;
+  background-color: white;
+}
+
+
+.header-container {
+  background-color: white;
+  width: 25%;
+}
+
+.header-button {
+  display: inline;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.logo {
+  margin-left: 5px;
+  margin-top: -30px;
+}
+
+.input {
+  border-radius: 500px;
+  -moz-border-radius: 500px;
+  -webkit-border-radius: 500px;
+}
+
+.nav {
+  background-color: #f5cad3;
+  text-align: center;
+}
+
+.item {
+  display: inline;
+  margin: 0 2%;
+  padding: 0 8px;
+}

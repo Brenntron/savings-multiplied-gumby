@@ -1,5 +1,15 @@
+.content-wrap-right {
+	background-color: #e9fbc7;
+	margin: 20px 20px 20px 0;
+}
+
+.content {
+
+}
+
 .rightp {
 	color: #759252;
+	padding-left: 10px;
 }
 
 .box-nav {
@@ -15,6 +25,20 @@
 .navrow {
 	color: #759252;
 	display: inline;
+}
+.verytop {
+	margin-top: 75px;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+}
+.bottomrow {
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+
+.contentcontain {
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
 }
 
 .overbox {
