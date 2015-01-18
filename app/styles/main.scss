@@ -1,19 +1,28 @@
 @import "variables";
-@import "headings";
 @import "page2-left";
 @import "page2-right";
+
+body {
+	background-color: #74CCD1;
+}
 
 @font-face {
 	font-family: 'Corben', cursive;
 	font-family: 'Nobile', sans-serif;
 }
 
+h1 {
+    font-family: 'Corben', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 55px;
+}
+
 .header {
-	background-color: #d5f1f0;
+	background-color: $primary;
 }
 
 .header .row:first-child {
-	background-color: #d5f1f0;
+	background-color: $primary;
 	margin-bottom: 20px;
 }
 
@@ -23,12 +32,6 @@
 	border-top-left-radius: 40px;
 }
 
-
-h1 {
-    font-family: 'Corben', Georgia, Times, serif;
-    font-size: 40px;
-    line-height: 55px;
-}
 
 p {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
@@ -190,6 +193,8 @@ ul {
 .linkrow {
 	background-color: #74CCD1;
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
 }
 
 .bottomlink {
@@ -204,12 +209,5 @@ ul {
 	font-weight: bold;
 }
 
-.content-wrap-left {
-	background-color: #e9fbc7;
-	margin: 20px 0px 20px 20px;
-}
 
-.content-wrap-right {
-	background-color: #e9fbc7;
-	margin: 20px 20px 20px 0;
-}
+

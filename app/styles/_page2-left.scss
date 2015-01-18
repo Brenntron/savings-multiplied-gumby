@@ -1,3 +1,20 @@
+
+.content-wrap-left {
+	background-color: #e9fbc7;
+	margin: 0, 0, -15px, 0;
+	height: 100%;
+	border-bottom-left-radius: 2em;
+}
+
+.content-wrap-left * {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.content-wrap-left:nth-child(1) {
+	padding-top: 7px;
+}
+
 .formli{
 	display: inline-block;
 
