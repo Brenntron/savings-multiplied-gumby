@@ -1,6 +1,7 @@
 doctype html
 html(lang="en-US")
   head
+<<<<<<< HEAD
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1")
@@ -8,9 +9,13 @@ html(lang="en-US")
     link(rel="stylesheet" href="/vendor/gumby/css/gumby.css")
     link(rel="stylesheet" href="/css/main.css")
   
+=======
+    include partials/_page2_head.jade
+>>>>>>> 84b27852bf20dbdd768ff06c50876a04f0812ab9
   body
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
     .header
+<<<<<<< HEAD
           .row
             .ten.columns
             .two.columns.sign
@@ -194,114 +199,20 @@ html(lang="en-US")
                     option Juicy
                     option Hello Kitty 
 
+=======
+      include partials/_page2_body_header.jade
+        
+    .nav
+      include partials/_page2_body_nav.jade
+    
+    .content
+      .row
+        include partials/_page2_body_content-left.jade
+        include partials/_page2_body_content-right.jade
+>>>>>>> 84b27852bf20dbdd768ff06c50876a04f0812ab9
 
-        .eight.columns
-          .content-wrap-right
-            .row
-              p.rightp All > Twin > B/G
-            .row
-              p.rightp Sort by:
-                select 
-                  option(value="Price") Price
-                  option(value="Size") Size
-                  option(value="Condition") Condition
-              ul.box-nav
-                li.navlink
-                  a.navrow(href='#') prev.
-                li.navlink
-                  p.navrow |
-                li.navlink
-                  a.navrow(href='#') page num.
-                li.navlink
-                  p.navrow |
-                li.navlink
-                  a.navrow(href='#') next
-                li.navlink
-                  p.navrow |
-                li.navlink
-                  a.navrow(href='#') view all
-                li.navlink
-                  p.navrow |
-            .row
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-            .row
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-            .row
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-            .row
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-      .row.linkrow
-        a.p2.bottomlink(href='#') Link Here
-        p.p2.bottomlink |
-        a.p2.bottomlink(href='#') Link Here
-        p.p2.bottomlink |
-        a.p2.bottomlink(href='#') Link Here
-        p.p2.bottomlink |
-        a.p2.bottomlink(href='#') Link Here
-        p.p2.bottomlink |
-        a.p2.bottomlink(href='#') Link Here
-        p.p2.bottomlink |
-        a.p2.bottomlink(href='#') Link Here
+    .row.linkrow
+      include partials/_page2_body_linkrow.jade
 
     script(src="/vendor/jquery/dist/jquery.min.js")  
     
