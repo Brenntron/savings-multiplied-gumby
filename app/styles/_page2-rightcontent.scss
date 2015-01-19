@@ -1,0 +1,60 @@
+.content-wrap-right {
+	background-color: #e9fbc7;
+	margin: 20px 20px 20px 0;
+}
+
+.rightp {
+	color: #759252;
+	padding-left: 10px;
+}
+
+.box-nav {
+	padding-left: 310px;
+	margin-top: -40px;
+	padding-bottom: 40px;
+}
+
+.navlink {
+	display: inline;
+}
+
+.navrow {
+	color: #759252;
+	display: inline;
+}
+
+//.verytop {
+//	margin-top: 75px;
+//	border-top-right-radius: 2em;
+//	border-top-left-radius: 2em;
+//} Moved to _topheader.scss
+
+.bottomrow {
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+
+.contentcontain {
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+
+.overbox {
+	width: 100px;
+	height: 150px;
+	p {
+	font-size: .7em;
+	margin: 0 0 20px;
+	color: #759252;
+	}
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: #ECFAD3;
+}
+
+.p2 {
+	margin-top: -50px;
+}
