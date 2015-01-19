@@ -26,11 +26,13 @@
 	color: #759252;
 	display: inline;
 }
-.verytop {
-	margin-top: 75px;
-	border-top-right-radius: 2em;
-	border-top-left-radius: 2em;
-}
+
+//.verytop {
+//	margin-top: 75px;
+//	border-top-right-radius: 2em;
+//	border-top-left-radius: 2em;
+//} Moved to _topheader.scss
+
 .bottomrow {
 	border-bottom-left-radius: 2em;
 	border-bottom-right-radius: 2em;

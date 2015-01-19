@@ -13,6 +13,18 @@
   border-top-left-radius: 40px;
 }
 
+.rounded {
+  border-top-right-radius: 2em;
+  border-top-left-radius: 2em;
+}
+
+
+//.verytop {
+.sign {
+  margin-top: 75px;
+  background-color: $primary2;
+}
+
 h1 {
     font-family: 'Corben', Georgia, Times, serif;
     font-size: 40px;
@@ -74,6 +86,10 @@ p {
 
 .row {
   padding: 0;
+//  background-color: white;
+}
+
+.white {
   background-color: white;
 }
 
