@@ -1,9 +1,12 @@
 
 .content-wrap-left {
 	background-color: #e9fbc7;
-	margin: 0;
+	margin: 10%;
 	height: 100%;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
 	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
 }
 
 .content-wrap-left * {
